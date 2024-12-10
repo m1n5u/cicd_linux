@@ -35,4 +35,4 @@ jobs:
         run: docker build -t m1n5u/songdo .
     
       - name: Push docker image
-        run: docker push m1n5u/songdo:latest .
+        run: docker push m1n5u/songdo:latest
